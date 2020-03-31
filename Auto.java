@@ -5,7 +5,7 @@
  * @author molguin
  * @see Vehiculo
  */
-public class Auto extends Vehiculo{
+public class Auto extends Vehiculo {
 
     Auto(String marca, String color) {
         super(marca,color);
@@ -20,12 +20,12 @@ public class Auto extends Vehiculo{
     @Override
     public String acelerar(int unidades) {
         return "Auto está revolucionando el motor y diferencial "+
-                "para acelerar "+unidades + "km/hr";
+                "para aumentar la velocidad en "+unidades + "km/hr";
     }
 
     @Override
     public String desacelerar(int unidades) {
         return "El auto está disminuyendo las revoluciones del motor "+
-                "para desacelerar " + unidades + "km/hr";
+                "para disminuir velocidad en " + unidades + "km/hr";
     }
 }
