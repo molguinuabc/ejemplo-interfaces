@@ -5,23 +5,11 @@
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.HashMap;
+
 public class ClasePrincipal {
 
     public static void main() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Ingresa un booleno: ");
-        boolean entero = sc.nextBoolean();
-        sc.nextLine();
-        System.out.print("Ingresa una cadena: ");
-        String cadena = sc.nextLine();
-        System.out.print("Ingresa otro entero: ");
-        int otroEntero = sc.nextInt();
-        
-        System.out.println(entero);
-        System.out.println(cadena);
-        System.out.println(otroEntero);
-        
-        /*
        Avion a = new Avion("Boeing","Plata");
        Pajaro p = new Pajaro("graznido");
        HadaVoladora h = new HadaVoladora(5);
@@ -43,7 +31,7 @@ public class ClasePrincipal {
            }
            System.out.println(ov.descender(unidades));
        }
-       */
+
        
     }
     
