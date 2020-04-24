@@ -9,7 +9,7 @@ public class DemoExcepciones
         while(true) {
             try {
                 int n = entrada.nextInt();
-                if( n > 10 ) {
+                if( n >= 9 ) {
                     throw new MiPropiaException("El valor de n debe ser menor o igual a 10");
                 }
                 System.out.println("El número ingresado es: " + n);
